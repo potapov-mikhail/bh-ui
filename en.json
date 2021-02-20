@@ -1,0 +1,100 @@
+{
+  "BH_UI": {
+    "DAY_OF_WEEK": {
+      "MO": "Mo",
+      "TU": "Tu",
+      "WE": "We",
+      "TH": "Th",
+      "FR": "Fr",
+      "SA": "Sa",
+      "SU": "Su"
+    },
+    "DAY": "{count, plural, =0{days} one{day} other{days}}",
+    "MINUTE": "{count, plural, =0{minutes} one{minute} other{minutes}}",
+    "HOUR": "{count, plural, =0{hours} one{hour} other{hours}}",
+    "VALIDATION_MSG": {
+      "REQUIRED": "Field is required",
+      "INVALID_URL": "Invalid URL",
+      "INVALID_EMAIL": "Invalid email"
+    },
+    "ACTION_STEP": {
+      "CREATE_FIELD": "+ Create field",
+      "VALUE": "Value",
+      "ADD_ACTION": "Add action",
+      "INFO_MSG": "Attention! Starting a chat with an agent makes the transition to the next step impossible and the bot will be completed.",
+      "ADD_TAG": "Add tag",
+      "DEL_TAG": "Del tag",
+      "SET_FIELD": "Set field",
+      "CLEAR_FIELD": "Clear field",
+      "INC_FIELD": "Inc field",
+      "DEC_FIELD": "Dec field",
+      "RUN_BOT": "Start bot",
+      "STOP_BOT": "Stop bot",
+      "ADD_TO_FUNNEL": "Add to funnel",
+      "REMOVE_FROM_FUNNEL": "Remove from funnel",
+      "SUBSCRIBE": "Subscribe",
+      "UNSUBSCRIBE": "Unsubscribe",
+      "SEND_LEAD_EMAIL": "Send lead email",
+      "SEND_LEAD_WEBHOOK": "Send lead webhook",
+      "CHAT_WITH_AGENT": "Chat with agent"
+    },
+    "DELAY_STEP": {
+      "TITLE": "Delay",
+      "AFTER_TIME_TITLE": "How long does it take to send a message?",
+      "SELECT_DELAY_TYPE_TITLE": "Delay type",
+      "SEND_TIME_TITLE": "Time for sending",
+      "SEND_TIME_SUBTITLE": "Choose a convenient time for the recipient",
+      "SELECT_SEND_TIME": "Time",
+      "SENDING_DAYS_TITLE": "Days for sending",
+      "SENDING_DAYS_INFO_TEXT": "Important! This step won't be sent on unchecked days",
+      "SEND_AFTER_INFO_TEXT": "Wait at least {periodValue} {periodTime} and then continue at {timeValue}",
+      "DELAY_TYPE": {
+        "SEND_IN": "Send in",
+        "SEND_TOMORROW": "Send tomorrow",
+        "SEND_TO": "Send to",
+        "OFF": "Off",
+        "IMMEDIATELY": "Immediately"
+      },
+      "TIME_SENDING": {
+        "AT": "Send at",
+        "ANY": "Anytime",
+        "BETWEEN": "Send between"
+      },
+      "PERIOD_TYPES": {
+        "MINUTES": "Minutes",
+        "HOURS": "Hours",
+        "DAYS": "Days"
+      }
+    },
+    "CONDITION_STEP": {
+      "DOES_THE_SUBSCRIBER_MATCH": "Does the subscriber match",
+      "QUANTOR_ALL": "All",
+      "QUANTOR_ANY": "Any",
+      "ADD_CONDITION": "Add condition",
+      "GET_COURSE_PREDICATE": "Paid course in GetCourse",
+      "CURRENT_DATE_PREDICATE": "Current date",
+      "CURRENT_TIME_PREDICATE": "Current time",
+      "WEEK_DAY_PREDICATE": "Week days",
+      "OPEN_STEP_LINK_PREDICATE": "Click in the step",
+      "BIZON_PREDICATE": "Visited bizon365 webinar",
+      "USER_TAG_PREDICATE": "Tag",
+      "NAME_PREDICATE": "Name",
+      "EMAIL_PREDICATE": "Email",
+      "PHONE_PREDICATE": "Phone",
+      "IS_EQUAL_NUMBER": "Is equal number",
+      "GREATER_OR_EQUAL_NUMBER": "Greater or equal number",
+      "LESS_OR_EQUAL_NUMBER": "less or equal number",
+      "IS": "Is",
+      "IS_NOT": "Is not",
+      "CONTAINS": "Contains",
+      "DOES_NOT_CONTAIN": "Does not contain",
+      "IS_UNKNOWN": "Is unknown",
+      "HAS_ANY_VALUE": "Has any value",
+      "GREATER_NUMBER": "Greater number",
+      "LESS_NUMBER": "Less number",
+      "IS_NOT_EQUAL_NUMBER": "Is not equal number",
+      "IS_UNKNOWN_NUMBER": "Is unknown number",
+      "HAS_ANY_VALUE_NUMBER": "Has any value number"
+    }
+  }
+}

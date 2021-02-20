@@ -1,0 +1,100 @@
+{
+  "BH_UI": {
+    "DAY_OF_WEEK": {
+      "MO": "Пн",
+      "TU": "Вт",
+      "WE": "Ср",
+      "TH": "Чт",
+      "FR": "Пт",
+      "SA": "Сб",
+      "SU": "Вс"
+    },
+    "DAY": "{count, plural, =0{дней} one{день} other{дня}}",
+    "MINUTE": "{count, plural, =0{минут} one{минута} few{минуты} other{минут}}",
+    "HOUR": "{count, plural, =0{часов} one{час} few{часа} other{часов}}",
+    "VALIDATION_MSG": {
+      "REQUIRED": "Обязательное поле",
+      "INVALID_URL": "Некорректный url",
+      "INVALID_EMAIL": "Некорректный email"
+    },
+    "ACTION_STEP": {
+      "CREATE_FIELD": "+ Создать поле",
+      "VALUE": "Значение",
+      "ADD_ACTION": "Добавить действие",
+      "INFO_MSG": "Внимание! При старте чата с агентом переход к следующему шагу невозможен, и бот будет завершен.",
+      "ADD_TAG": "Добавить метку",
+      "DEL_TAG": "Удалить метку",
+      "SET_FIELD": "Установить поле",
+      "CLEAR_FIELD": "Очистить поле",
+      "INC_FIELD": "Увеличить на",
+      "DEC_FIELD": "Уменьшить на",
+      "RUN_BOT": "Запустить бота",
+      "STOP_BOT": "Остановить бота",
+      "ADD_TO_FUNNEL": "Добавить в авторассылку",
+      "REMOVE_FROM_FUNNEL": "Убрать из авторассылки",
+      "SUBSCRIBE": "Подписать",
+      "UNSUBSCRIBE": "Отписать",
+      "SEND_LEAD_EMAIL": "Отправить данные подписчика на Email",
+      "SEND_LEAD_WEBHOOK": "Отправить данные подписчика через Webhook",
+      "CHAT_WITH_AGENT": "Чат с агентом"
+    },
+    "CONDITION_STEP": {
+      "DOES_THE_SUBSCRIBER_MATCH": "Подписчик соответствует",
+      "QUANTOR_ALL": "Каждому из этих условий",
+      "QUANTOR_ANY": "Любому из этих условий",
+      "ADD_CONDITION": "Добавить условие",
+      "GET_COURSE_PREDICATE": "Оплатил курс в GetCourse",
+      "CURRENT_DATE_PREDICATE": "Текущая дата",
+      "CURRENT_TIME_PREDICATE": "Текущее время",
+      "WEEK_DAY_PREDICATE": "День недели",
+      "OPEN_STEP_LINK_PREDICATE": "Переход по ссылке в шаге",
+      "BIZON_PREDICATE": "Посещение вебинара bizon365",
+      "USER_TAG_PREDICATE": "Метка",
+      "NAME_PREDICATE": "Имя",
+      "EMAIL_PREDICATE": "Email",
+      "PHONE_PREDICATE": "Телефон",
+      "IS_EQUAL_NUMBER": "Равно",
+      "GREATER_OR_EQUAL_NUMBER": "Больше либо равно",
+      "LESS_OR_EQUAL_NUMBER": "Меньше либо равно",
+      "IS": "Соответствует",
+      "IS_NOT": "Не соответствует",
+      "CONTAINS": "Содержит",
+      "DOES_NOT_CONTAIN": "Не содержит",
+      "IS_UNKNOWN": "Неизвестно",
+      "HAS_ANY_VALUE": "Имеет какое-то значение",
+      "GREATER_NUMBER": "Больше",
+      "LESS_NUMBER": "Меньше",
+      "IS_NOT_EQUAL_NUMBER": "Не равно",
+      "IS_UNKNOWN_NUMBER": "Незаполнено",
+      "HAS_ANY_VALUE_NUMBER": "Заполнено"
+    },
+    "DELAY_STEP": {
+      "TITLE": "Задержка",
+      "AFTER_TIME_TITLE": "Через какое время отправить сообщение?",
+      "SELECT_DELAY_TYPE_TITLE": "Тип задержки",
+      "SEND_TIME_TITLE": "Время отправки",
+      "SEND_TIME_SUBTITLE": "Выберите удобное время для получателя",
+      "SELECT_SEND_TIME": "Время отправки",
+      "SENDING_DAYS_TITLE": "Дни отправки",
+      "SENDING_DAYS_INFO_TEXT": "Важно! Этот шаг будет отправлен только в выбранные дни недели",
+      "SEND_AFTER_INFO_TEXT": "Будет произведена задержка как минимум {periodValue} {periodTime} от предыдущего шага и затем ожидание наступления {timeValue}",
+      "DELAY_TYPE": {
+        "SEND_IN": "Отправить через",
+        "SEND_TOMORROW": "Отправить завтра",
+        "SEND_TO": "Отправить в",
+        "OFF": "Выкл",
+        "IMMEDIATELY": "Немедленно"
+      },
+      "TIME_SENDING": {
+        "AT": "Точное время",
+        "ANY": "Любое",
+        "BETWEEN": "Временной интервал"
+      },
+      "PERIOD_TYPES": {
+        "MINUTES": "Минут",
+        "HOURS": "Часов",
+        "DAYS": "Дней"
+      }
+    }
+  }
+}
