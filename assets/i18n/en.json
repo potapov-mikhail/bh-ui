@@ -1,0 +1,238 @@
+{
+  "BH_UI": {
+    "YES": "Yes",
+    "NO": "No",
+    "NUMBER": "Number",
+    "TEXT": "Text",
+    "PHONE": "Phone",
+    "NEXT_STEP": {
+      "TITLE": "Go to step",
+      "STEPS": "Steps",
+      "NOT_STEP": "Not step",
+      "BOTS_AND_FLOWS": "Flows and sequences flows",
+      "CHECKBOX_INFO": "Follow up"
+    },
+    "DAY_OF_WEEK": {
+      "MO": "Mo",
+      "TU": "Tu",
+      "WE": "We",
+      "TH": "Th",
+      "FR": "Fr",
+      "SA": "Sa",
+      "SU": "Su"
+    },
+    "DAY": "{count, plural, =0{days} one{day} other{days}}",
+    "MINUTE": "{count, plural, =0{minutes} one{minute} other{minutes}}",
+    "HOUR": "{count, plural, =0{hours} one{hour} other{hours}}",
+    "VALIDATION_MSG": {
+      "REQUIRED": "Field is required",
+      "INVALID_URL": "Invalid URL",
+      "INVALID_EMAIL": "Invalid email",
+      "INVALID_PHONE_NUMBER": "Invalid phone number",
+      "MAX_LENGTH": "Maximum number of characters {value}",
+      "DUPLICATE": "This value is already in use. Please choose a different value"
+    },
+    "BUTTONS": {
+      "CANCEL": "Cancel",
+      "SAVE": "Save",
+      "DELETE": "Delete"
+    },
+    "BUTTON_COLORS": {
+      "WHITE": "Default (while)",
+      "BLUE": "Primary (blue)",
+      "GREEN": "Positive (green)",
+      "RED": "Negative (red)"
+    },
+    "TEXTAREA": {
+      "RELATIVE_DATE": "Relative date",
+      "CUSTOM_FIELDS": "Custom fields",
+      "PAY_FIELDS": "Pay fields"
+    },
+    "MODALS": {
+      "ADD_ATTACHMENT": {
+        "TITLE": "Attachment",
+        "INPUT_LABEL": "Enter attachment url",
+        "DESCRIPTION": "You can attach a photo, a video, a document, a wall post or a market to the message. Copy the attachment link by following <a href={href} target={target}>this guide</a> and insert in the field below. Text of the message can be empty.",
+        "EXAMPLES": {
+          "TITLE": "Examples",
+          "PHOTO": "Photo",
+          "VIDEO": "Video",
+          "AUDIO": "Audio",
+          "POST": "Post",
+          "DOCUMENT": "Document",
+          "PRODUCT": "Product"
+        }
+      },
+      "ADD_BUTTON": {
+        "TITLE": "Button",
+        "INPUT_BUTTON_TITLE_LABEL": "Button title",
+        "SELECT_BUTTON_TYPE_LABEL": "Button type",
+        "SELECT_BUTTON_COLOR_LABEL": "Button color",
+        "INPUT_PHONE_LABEL": "Phone number",
+        "INPUT_PHONE_PLACEHOLDER": "Phone number (+123444555)",
+        "INPUT_URL_LABEL": "Enter an url",
+        "HINT_URL": "You can use parameters like '{%first_name%} or {%ref%}'",
+        "OPTION_URL": "URL",
+        "OPTION_POSTBACK": "Go to step",
+        "ACTION": "Action",
+        "OPTION_PHONE": "Phone call"
+      },
+      "ADD_CUSTOM_FIELD": {
+        "TITLE": "Add a new custom field",
+        "INPUT_FIELD_TITLE_LABEL": "Field name",
+        "SELECT_DATA_TYPE_LABEL": "Data type"
+      },
+      "ADD_QUESTION_ANSWER": {
+        "TITLE": "Answer",
+        "INPUT_ANSWER_TITLE_LABEL": "Answer title"
+      },
+      "QUESTION_SETTINGS": {
+        "TITLE": "User input settings",
+        "INPUT_ANSWER_TITLE_LABEL": "Answer title",
+        "INPUT_QUICK_REPLY_LABEL": "Quick reply",
+        "INPUT_QUICK_REPLY_PLACEHOLDER": "+ Reply",
+        "INPUT_QUICK_REPLY_HINT": "Up to {items} items. Max a {characters} characters",
+        "INPUT_QUICK_REPLY_ERROR": "It is possible to add only up to {value} elements",
+        "SELECT_FIELD_TYPE_LABEL": "Field type",
+        "CHECK_VALIDATION_LABEL": "Validation",
+        "CHECK_REPEAT_LABEL": "Repeat a question",
+        "INPUT_ERROR_LABEL": "Error message",
+        "INPUT_QUESTION_TEXT_LABEL": "Question text",
+        "REPEAT_AFTER": "Repeat after",
+        "SELECT_DELAY_LABEL": "Delay",
+        "DEFAULT_VALIDATOR_MSG": "Hey '{%first_name%}', what you’ve entered does not look like …",
+        "DEFAULT_REPEAT_TEXT": "'{%first_name%}', please let us know your...."
+      }
+    },
+    "ACTION_STEP": {
+      "CREATE_FIELD": "+ Create field",
+      "VALUE": "Value",
+      "ADD_ACTION": "Add action",
+      "INFO_MSG": "Attention! Starting a chat with an agent makes the transition to the next step impossible and the flow will be completed.",
+      "ADD_TAG": "Add tag",
+      "DEL_TAG": "Del tag",
+      "SET_FIELD": "Set field",
+      "CLEAR_FIELD": "Clear field",
+      "INC_FIELD": "Inc field",
+      "DEC_FIELD": "Dec field",
+      "RUN_BOT": "Start flow",
+      "STOP_BOT": "Stop flow",
+      "ADD_TO_FUNNEL": "Add to sequence",
+      "REMOVE_FROM_FUNNEL": "Remove from sequence",
+      "SUBSCRIBE": "Subscribe",
+      "UNSUBSCRIBE": "Unsubscribe",
+      "SEND_LEAD_EMAIL": "Send lead email",
+      "SEND_LEAD_WEBHOOK": "Send lead webhook",
+      "CHAT_WITH_AGENT": "Chat with agent"
+    },
+    "MESSAGE_STEP": {
+      "FILE": {
+        "TITLE": "File"
+      },
+      "PICTURE": {
+        "TITLE": "Image"
+      },
+      "KEYBOARD": {
+        "TITLE": "Keyboard",
+        "BUTTON_ADD": "Add button",
+        "WARNING_MSG": "Attention! Keyboard card could not be shown after an User Input card.",
+        "WARNING_MSG_ABOUT_BUTTONS": "Attention! Keyboard card could not be shown after an User Input card with buttons."
+      },
+      "VIDEO": {
+        "TITLE": "Video",
+        "INPUT_LABEL": "Link to URL video",
+        "PH_EXAMPLE_VK": "https://vk.com/video-132741842_456239019",
+        "HINT_FORMAT": "Allowed format: mp4. Maximum size: 25 MB. If you are using Dropbox, add? Dl = 1 to the end of the link.",
+        "INPUT_LABEL_VK": "Link to VK video",
+        "HINT_FORMAT_VK": "Enter the link to VK video. Example: https://vk.com/video-132741842_456239019"
+      },
+      "QUESTION": {
+        "TITLE": "User Input",
+        "SELECT_LABEL": "Save to field",
+        "BUTTON_ADD": "Add answer",
+        "BUTTON_SETTINGS": "Settings",
+        "INFO_TEXT": "Waiting for a reply from the user for 24 hours",
+        "OPTION_ADD_FIELD": "+ Create a field"
+      },
+      "TEXT": {
+        "TITLE": "Text message",
+        "INPUT_PLACEHOLDER": "Enter text message",
+        "NO_SNIPPET": "No snippet",
+        "TOOLTIP": "When this option is enabled, the message illustrations from the message text, including the cover of the article, will not be attached to the message.",
+        "BUTTON_ADD": "Add button",
+        "BUTTON_ATTACHMENT": "Attachment"
+      },
+      "ADD_CARD_BUTTONS": {
+        "TITLE": "Add a card",
+        "TEXT": "Text",
+        "PICTURE": "Picture",
+        "FILE": "File",
+        "VIDEO": "Video",
+        "QUESTION": "User input"
+      },
+      "QUICK_ANSWERS": {
+        "TITLE": "Quick reply",
+        "BUTTON_ADD": "Add quick reply",
+        "WARNING_MSG": "Attention! Quick Replies cannot appear right after User Input."
+      }
+    },
+    "DELAY_STEP": {
+      "TITLE": "Delay",
+      "AFTER_TIME_TITLE": "How long does it take to send a message?",
+      "SELECT_DELAY_TYPE_TITLE": "Delay type",
+      "SEND_TIME_TITLE": "Time for sending",
+      "SEND_TIME_SUBTITLE": "Choose a convenient time for the recipient",
+      "SELECT_SEND_TIME": "Time",
+      "SENDING_DAYS_TITLE": "Days for sending",
+      "SENDING_DAYS_INFO_TEXT": "Important! This step won't be sent on unchecked days",
+      "SEND_AFTER_INFO_TEXT": "Wait at least {periodValue} {periodTime} and then continue at {timeValue}",
+      "DELAY_TYPE": {
+        "SEND_IN": "Send in",
+        "SEND_TOMORROW": "Send tomorrow",
+        "SEND_TO": "Send to",
+        "OFF": "Off",
+        "IMMEDIATELY": "Immediately"
+      },
+      "TIME_SENDING": {
+        "AT": "Send at",
+        "ANY": "Anytime",
+        "BETWEEN": "Send between"
+      },
+      "PERIOD_TYPES": {
+        "MINUTES": "Minutes",
+        "HOURS": "Hours",
+        "DAYS": "Days"
+      }
+    },
+    "CONDITION_STEP": {
+      "DOES_THE_SUBSCRIBER_MATCH": "Does the subscriber match",
+      "QUANTOR_ALL": "All",
+      "QUANTOR_ANY": "Any",
+      "ADD_CONDITION": "Add condition",
+      "GET_COURSE_PREDICATE": "Paid course in GetCourse",
+      "CURRENT_DATE_PREDICATE": "Current date",
+      "CURRENT_TIME_PREDICATE": "Current time",
+      "WEEK_DAY_PREDICATE": "Week days",
+      "OPEN_STEP_LINK_PREDICATE": "Click in the step",
+      "BIZON_PREDICATE": "Visited bizon365 webinar",
+      "USER_TAG_PREDICATE": "Tag",
+      "NAME_PREDICATE": "Name",
+      "EMAIL_PREDICATE": "Email",
+      "PHONE_PREDICATE": "Phone",
+      "IS_EQUAL_NUMBER": "Is equal number",
+      "GREATER_OR_EQUAL_NUMBER": "Greater or equal number",
+      "LESS_OR_EQUAL_NUMBER": "less or equal number",
+      "IS": "Is",
+      "IS_NOT": "Is not",
+      "CONTAINS": "Contains",
+      "DOES_NOT_CONTAIN": "Does not contain",
+      "IS_UNKNOWN": "Is unknown",
+      "HAS_ANY_VALUE": "Has any value",
+      "GREATER_NUMBER": "Greater number",
+      "LESS_NUMBER": "Less number",
+      "IS_NOT_EQUAL_NUMBER": "Is not equal number",
+      "IS_UNKNOWN_NUMBER": "Is unknown number",
+      "HAS_ANY_VALUE_NUMBER": "Has any value number"
+    }
+  }
+}

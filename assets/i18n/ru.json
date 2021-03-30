@@ -1,0 +1,238 @@
+{
+  "BH_UI": {
+    "YES": "Да",
+    "NO": "Нет",
+    "NUMBER": "Число",
+    "TEXT": "Текст",
+    "PHONE": "Телефон",
+    "NEXT_STEP": {
+      "TITLE": "Перейти к шагу",
+      "STEPS": "Шаги",
+      "NOT_STEP": "Без перехода",
+      "BOTS_AND_FLOWS": "БОТЫ & СЦЕНАРИИ",
+      "CHECKBOX_INFO": "Перейти к следующему шагу после завершения"
+    },
+    "DAY_OF_WEEK": {
+      "MO": "Пн",
+      "TU": "Вт",
+      "WE": "Ср",
+      "TH": "Чт",
+      "FR": "Пт",
+      "SA": "Сб",
+      "SU": "Вс"
+    },
+    "DAY": "{count, plural, =0{дней} one{день} other{дня}}",
+    "MINUTE": "{count, plural, =0{минут} one{минута} few{минуты} other{минут}}",
+    "HOUR": "{count, plural, =0{часов} one{час} few{часа} other{часов}}",
+    "VALIDATION_MSG": {
+      "REQUIRED": "Обязательное поле",
+      "INVALID_URL": "Некорректный url",
+      "INVALID_EMAIL": "Некорректный email",
+      "INVALID_PHONE_NUMBER": "Некорректный номер телефона",
+      "MAX_LENGTH": "Максимум {value} символов",
+      "DUPLICATE": "Это значение уже используется. Выберите другое"
+    },
+    "BUTTONS": {
+      "CANCEL": "Отмена",
+      "SAVE": "Сохранить",
+      "DELETE": "Удалить"
+    },
+    "BUTTON_COLORS": {
+      "WHITE": "Обычная (белый)",
+      "BLUE": "Главная (голубой)",
+      "GREEN": "Положительная (зеленый)",
+      "RED": "Отрицательная (красный)"
+    },
+    "TEXTAREA": {
+      "RELATIVE_DATE": "Относительная дата",
+      "CUSTOM_FIELDS": "Настраиваемые поля",
+      "PAY_FIELDS": "Оплата"
+    },
+    "MODALS": {
+      "ADD_ATTACHMENT": {
+        "TITLE": "Вложение",
+        "INPUT_LABEL": "Введите ссылку на вложение",
+        "DESCRIPTION": "Вы можете прикрепить фото, видео, документ, пост группы или товар к сообщению. Для этого скопируйте ссылку на вложение, <a href={href} target={target}>следуя этой инструкции</a>, и вставьте в поле ниже. Текст сообщения может быть пустым. Важно, чтобы вложение было доступно для просмотра.",
+        "EXAMPLES": {
+          "TITLE": "Примеры",
+          "PHOTO": "Фотография",
+          "VIDEO": "Видеозапись",
+          "AUDIO": "Аудиозапись",
+          "POST": "Пост в группе",
+          "DOCUMENT": "Документ",
+          "PRODUCT": "Товар"
+        }
+      },
+      "ADD_BUTTON": {
+        "TITLE": "Кнопка",
+        "INPUT_BUTTON_TITLE_LABEL": "Название кнопки",
+        "SELECT_BUTTON_TYPE_LABEL": "Тип кнопки",
+        "SELECT_BUTTON_COLOR_LABEL": "Цвет кнопки",
+        "INPUT_PHONE_LABEL": "Введите номер телефона",
+        "INPUT_PHONE_PLACEHOLDER": "Номер телефона (+123444555)",
+        "INPUT_URL_LABEL": "URL-адрес",
+        "HINT_URL": "Можно использовать параметры типа '{%first_name%} или {%ref%}'",
+        "OPTION_URL": "URL",
+        "OPTION_POSTBACK": "Перейти к шагу",
+        "ACTION": "Действие",
+        "OPTION_PHONE": "Телефонный звонок"
+      },
+      "ADD_CUSTOM_FIELD": {
+        "TITLE": "Добавьте новое поле",
+        "INPUT_FIELD_TITLE_LABEL": "Название поля",
+        "SELECT_DATA_TYPE_LABEL": "Тип"
+      },
+      "ADD_QUESTION_ANSWER": {
+        "TITLE": "Ответ",
+        "INPUT_ANSWER_TITLE_LABEL": "Заголовок ответа"
+      },
+      "QUESTION_SETTINGS": {
+        "TITLE": "Настройки вопроса",
+        "INPUT_ANSWER_TITLE_LABEL": "Заголовок ответа",
+        "INPUT_QUICK_REPLY_LABEL": "Варианты ответов",
+        "INPUT_QUICK_REPLY_PLACEHOLDER": "+ Ответ",
+        "INPUT_QUICK_REPLY_HINT": "До {items} элементов. Максимум {characters} символов каждый",
+        "INPUT_QUICK_REPLY_ERROR": "Возможно добаление только {value} элементов",
+        "SELECT_FIELD_TYPE_LABEL": "Тип поля",
+        "CHECK_VALIDATION_LABEL": "Включить проверку",
+        "CHECK_REPEAT_LABEL": "Повторить вопрос",
+        "INPUT_ERROR_LABEL": "Сообщение об ошибке",
+        "INPUT_QUESTION_TEXT_LABEL": "Текст вопроса",
+        "REPEAT_AFTER": "Повторить через",
+        "SELECT_DELAY_LABEL": "Задержка",
+        "DEFAULT_VALIDATOR_MSG": "Привет '{%first_name%}', то, что вы указали, не выглядит как … ",
+        "DEFAULT_REPEAT_TEXT": "'{%first_name%}', пожалуйста, уточните ваш..."
+      }
+    },
+    "ACTION_STEP": {
+      "CREATE_FIELD": "+ Создать поле",
+      "VALUE": "Значение",
+      "ADD_ACTION": "Добавить действие",
+      "INFO_MSG": "Внимание! При старте чата с агентом переход к следующему шагу невозможен, и бот будет завершен.",
+      "ADD_TAG": "Добавить метку",
+      "DEL_TAG": "Удалить метку",
+      "SET_FIELD": "Установить поле",
+      "CLEAR_FIELD": "Очистить поле",
+      "INC_FIELD": "Увеличить на",
+      "DEC_FIELD": "Уменьшить на",
+      "RUN_BOT": "Запустить бота",
+      "STOP_BOT": "Остановить бота",
+      "ADD_TO_FUNNEL": "Добавить в авторассылку",
+      "REMOVE_FROM_FUNNEL": "Убрать из авторассылки",
+      "SUBSCRIBE": "Подписать",
+      "UNSUBSCRIBE": "Отписать",
+      "SEND_LEAD_EMAIL": "Отправить данные подписчика на Email",
+      "SEND_LEAD_WEBHOOK": "Отправить данные подписчика через Webhook",
+      "CHAT_WITH_AGENT": "Чат с агентом"
+    },
+    "MESSAGE_STEP": {
+      "FILE": {
+        "TITLE": "Файл"
+      },
+      "PICTURE": {
+        "TITLE": "Картинка"
+      },
+      "KEYBOARD": {
+        "TITLE": "Клавиатура",
+        "BUTTON_ADD": "Добавить кнопку",
+        "WARNING_MSG": "Внимание! Клавиатура не может быть показана после блока Вопрос.",
+        "WARNING_MSG_ABOUT_BUTTONS": "Внимание! Клавиатура не может быть показана после текстового блока с кнопками."
+      },
+      "VIDEO": {
+        "TITLE": "Видео",
+        "INPUT_LABEL": "Введите URL-адрес видео файла",
+        "PH_EXAMPLE_VK": "https://vk.com/video-132741842_456239019",
+        "HINT_FORMAT": "Допустимый формат: mp4. Максимальный размер: 25 MB. Если вы используете Dropbox, добавьте ?dl=1 в конец ссылки.",
+        "INPUT_LABEL_VK": "Ссылка на видео ВКонтакте",
+        "HINT_FORMAT_VK": "Введите ссылку на видео ВКонтакте. Пример: https://vk.com/video-132741842_456239019"
+      },
+      "QUESTION": {
+        "TITLE": "Вопрос",
+        "SELECT_LABEL": "Сохранить в поле",
+        "BUTTON_ADD": "Добавить ответ",
+        "BUTTON_SETTINGS": "Настройки",
+        "INFO_TEXT": "Ожидание ответа пользователя в течение 24 часов",
+        "OPTION_ADD_FIELD": "+ Создать поле"
+      },
+      "TEXT": {
+        "TITLE": "Текст",
+        "INPUT_PLACEHOLDER": "Текст сообщения",
+        "NO_SNIPPET": "Без сниппета",
+        "TOOLTIP": "При включении данной опции к сообщению не будут прикреплены иллюстрации ссылок из текста сообщения, в том числе и обложка статьи.",
+        "BUTTON_ADD": "Добавить кнопку",
+        "BUTTON_ATTACHMENT": "Вложение"
+      },
+      "ADD_CARD_BUTTONS": {
+        "TITLE": "Добавить карточку",
+        "TEXT": "Текст",
+        "PICTURE": "Картинка",
+        "FILE": "Файл",
+        "VIDEO": "Видео",
+        "QUESTION": "Вопрос"
+      },
+      "QUICK_ANSWERS": {
+        "TITLE": "Быстрые ответы",
+        "BUTTON_ADD": "Добавить ответ",
+        "WARNING_MSG": "Внимание! Быстрые ответы не могут быть показана после блока Вопрос."
+      }
+    },
+    "DELAY_STEP": {
+      "TITLE": "Задержка",
+      "AFTER_TIME_TITLE": "Через какое время отправить сообщение?",
+      "SELECT_DELAY_TYPE_TITLE": "Тип задержки",
+      "SEND_TIME_TITLE": "Время отправки",
+      "SEND_TIME_SUBTITLE": "Выберите удобное время для получателя",
+      "SELECT_SEND_TIME": "Время отправки",
+      "SENDING_DAYS_TITLE": "Дни отправки",
+      "SENDING_DAYS_INFO_TEXT": "Важно! Этот шаг будет отправлен только в выбранные дни недели",
+      "SEND_AFTER_INFO_TEXT": "Будет произведена задержка как минимум {periodValue} {periodTime} от предыдущего шага и затем ожидание наступления {timeValue}",
+      "DELAY_TYPE": {
+        "SEND_IN": "Отправить через",
+        "SEND_TOMORROW": "Отправить завтра",
+        "SEND_TO": "Отправить в",
+        "OFF": "Выкл",
+        "IMMEDIATELY": "Немедленно"
+      },
+      "TIME_SENDING": {
+        "AT": "Точное время",
+        "ANY": "Любое",
+        "BETWEEN": "Временной интервал"
+      },
+      "PERIOD_TYPES": {
+        "MINUTES": "Минут",
+        "HOURS": "Часов",
+        "DAYS": "Дней"
+      }
+    },
+    "CONDITION_STEP": {
+      "DOES_THE_SUBSCRIBER_MATCH": "Подписчик соответствует",
+      "QUANTOR_ALL": "Каждому из этих условий",
+      "QUANTOR_ANY": "Любому из этих условий",
+      "ADD_CONDITION": "Добавить условие",
+      "GET_COURSE_PREDICATE": "Оплатил курс в GetCourse",
+      "CURRENT_DATE_PREDICATE": "Текущая дата",
+      "CURRENT_TIME_PREDICATE": "Текущее время",
+      "WEEK_DAY_PREDICATE": "День недели",
+      "OPEN_STEP_LINK_PREDICATE": "Переход по ссылке в шаге",
+      "BIZON_PREDICATE": "Посещение вебинара bizon365",
+      "USER_TAG_PREDICATE": "Метка",
+      "NAME_PREDICATE": "Имя",
+      "EMAIL_PREDICATE": "Email",
+      "PHONE_PREDICATE": "Телефон",
+      "IS_EQUAL_NUMBER": "Равно",
+      "GREATER_OR_EQUAL_NUMBER": "Больше либо равно",
+      "LESS_OR_EQUAL_NUMBER": "Меньше либо равно",
+      "IS": "Соответствует",
+      "IS_NOT": "Не соответствует",
+      "CONTAINS": "Содержит",
+      "DOES_NOT_CONTAIN": "Не содержит",
+      "IS_UNKNOWN": "Неизвестно",
+      "HAS_ANY_VALUE": "Имеет какое-то значение",
+      "GREATER_NUMBER": "Больше",
+      "LESS_NUMBER": "Меньше",
+      "IS_NOT_EQUAL_NUMBER": "Не равно",
+      "IS_UNKNOWN_NUMBER": "Незаполнено",
+      "HAS_ANY_VALUE_NUMBER": "Заполнено"
+    }
+  }
+}
